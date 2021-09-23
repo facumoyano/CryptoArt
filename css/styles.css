@@ -567,7 +567,8 @@ footer {
   .contact-container {
     display: flex;
     justify-content: center;
-    align-items: center; }
+    align-items: center;
+    margin-top: 30%; }
     .contact-container .img-contact-container {
       display: none; }
     .contact-container .container-form-contact {
