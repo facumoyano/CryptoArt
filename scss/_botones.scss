@@ -1,0 +1,88 @@
+.btnPrimario {
+  background-color: #14213d;
+  border: 0;
+  border-radius: 40px;
+  margin: 20px;
+  padding: 15px 90px;
+  cursor: pointer;
+}
+.btnPrimario a {
+  color: #e5e5e5;
+  font-family: "Bebas Neue", cursive;
+  font-size: 40px;
+  width: 100%;
+}
+.btnPrimario a:hover {
+  color: #14213d;
+}
+.btnPrimario:hover {
+  background-color: #fda312;
+  color: #14213d;
+}
+.contBtn {
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+}
+.btnSecundario {
+  background-color: #fff;
+  padding: 10px 60px;
+  border-radius: 40px;
+}
+.btnSecundario a {
+  color: #14213d;
+  font-family: "Bebas neue", cursive;
+  word-spacing: 7px;
+  font-weight: 400;
+}
+.btnSecundario:hover {
+  background-color: #fca311;
+  color: #000;
+}
+.btn-footer {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+  background-color: #fff;
+  color: #14213d;
+  border: 0;
+  border-radius: 5px;
+  padding: 5px 30px;
+  cursor: pointer;
+}
+.btn-footer:hover {
+  color: #14213d;
+  background-color: #fca311;
+}
+.btn-outline-success {
+  background-color: #fff;
+  color: #14213d;
+  padding: 10px 40px;
+  margin-left: 10px;
+  border-radius: 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  border: none;
+}
+.btn-outline-success:hover {
+  background-color: #fda312;
+  color: #14213d;
+}
+.btn-login {
+  color: #fff;
+  background-color: #14213d;
+  border: none;
+  border-radius: 5px;
+  width: 90%;
+  height: 40px;
+  margin: 20px;
+  font-size: 1.6rem;
+  cursor: pointer;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.btn-login:hover {
+  color: #14213d;
+  background-color: #fca311;
+}
