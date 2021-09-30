@@ -86,3 +86,14 @@
   color: #14213d;
   background-color: #fca311;
 }
+
+@media only screen and (max-width: 768px) {
+  .col-md-6 {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 578px) {
+  .btn-outline-success {
+    margin-left: 0;
+  }
+}

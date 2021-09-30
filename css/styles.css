@@ -18,7 +18,7 @@ h4 {
   font-weight: 700;
   text-align: center;
   color: #14213d;
-  font-size: 4rem;
+  font-size: 3rem;
   letter-spacing: 1px;
   padding: 20px; }
 
@@ -32,13 +32,13 @@ h3 {
 a {
   text-decoration: none;
   color: #000;
-  font-size: 24px; }
+  font-size: 2rem; }
 
 p {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   color: #14213d;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   line-height: 33px; }
 
 /* nav */
@@ -126,14 +126,14 @@ footer {
   footer .tittle-footer {
     color: #fff;
     font-family: "Bebas neue", cursive;
-    font-size: 3rem;
+    font-size: 2.7rem;
     padding: 30px 0 0 30px; }
   footer .navbar-light {
     margin: 20px 0; }
   footer .form-control {
     padding: 10px 80px;
     font-family: "Roboto", sans-serif;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     font-weight: 400;
     border-radius: 20px; }
   footer .nav-link {
@@ -146,14 +146,14 @@ footer {
     padding-top: 20px; }
   footer .nav-footer {
     font-family: "Bebas Neue", cursive;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     display: flex;
     justify-content: flex-end;
     align-items: center; }
     footer .nav-footer .nav-item {
       padding-left: 10px; }
       footer .nav-footer .nav-item .nav-link {
-        font-size: 2.5rem; }
+        font-size: 2.3rem; }
 
 /* Tablet NAV */
 @media only screen and (max-width: 768px) {
@@ -164,7 +164,7 @@ footer {
     justify-content: center; }
   .fixed {
     position: fixed;
-    top: 0;
+    top: -10px;
     background-color: #fff;
     border-bottom: 1px solid #c5c5c5; }
   .navbar {
@@ -181,7 +181,8 @@ footer {
     margin-top: 40px; }
   .logo {
     font-size: 5rem;
-    margin-left: 20px; }
+    margin-left: 20px;
+    margin-top: 10px; }
   .hamburger {
     position: fixed;
     background-color: transparent;
@@ -277,7 +278,7 @@ footer {
     justify-content: center; }
   .fixed {
     position: fixed;
-    top: 0;
+    top: -10px;
     background-color: #fff;
     border-bottom: 1px solid #c5c5c5; }
   .navbar {
@@ -293,8 +294,9 @@ footer {
     display: flex;
     margin-top: 40px; }
   .logo {
-    font-size: 4rem;
-    margin-left: 20px; }
+    font-size: 3.5rem;
+    margin-left: 20px;
+    margin-top: 10px; }
   .hamburger {
     position: fixed;
     background-color: transparent;
@@ -406,9 +408,9 @@ footer {
   .contenedorHeader {
     margin-top: 40%; }
     .contenedorHeader .titulo h1 {
-      font-size: 4rem; }
+      font-size: 3.6rem; }
     .contenedorHeader .btnPrimario a {
-      font-size: 3rem; }
+      font-size: 2.7rem; }
   .bg .section .cont-section .contenedor .img-section {
     height: 150px; }
   .bg .section .cont-section .contenedor .iframe {
@@ -419,7 +421,7 @@ footer {
   .tittle-footer {
     text-align: center;
     margin: 30px 0;
-    font-size: 3.5rem; }
+    font-size: 3.2rem; }
   .foot-derechos {
     margin-top: 10px; }
   .form-control {
@@ -428,7 +430,9 @@ footer {
     margin-left: 10%; }
   .btn-outline-success {
     padding: 10px 30px;
-    font-size: 2rem; }
+    font-size: 1.8rem; }
+  .col-md-5 {
+    width: 100%; }
   .nav-footer {
     display: flex;
     flex-direction: row;
@@ -442,14 +446,15 @@ footer {
       margin: 20px; }
   .d-flex {
     display: flex;
-    justify-content: space-around; }
+    justify-content: space-between;
+    align-items: center; }
   /* MOVIL FOOTER */ }
 
 @media only screen and (max-width: 768px) and (max-width: 578px) {
   .tittle-footer {
     text-align: center;
     margin-top: 30px;
-    font-size: 2.5rem; }
+    font-size: 2.3rem; }
   .nav-footer .nav {
     display: flex;
     flex-direction: column; }
@@ -483,8 +488,8 @@ footer {
 .contenedor-marketplace {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 40px;
-  margin: 20px; }
+  grid-gap: 60px;
+  margin: 60px; }
   .contenedor-marketplace .flex-market {
     display: flex;
     justify-content: space-between;
@@ -616,7 +621,7 @@ footer {
       transform: translateY(-50%); }
     .container-faq .respuesta p {
       color: #14213d;
-      font-size: 1.8rem;
+      font-size: 1.6rem;
       padding: 2rem; }
   .container-faq .acordeon-item:target .respuesta {
     max-height: 30rem; }
@@ -785,3 +790,11 @@ footer {
 .btn-login:hover {
   color: #14213d;
   background-color: #fca311; }
+
+@media only screen and (max-width: 768px) {
+  .col-md-6 {
+    width: 100%; } }
+
+@media only screen and (max-width: 578px) {
+  .btn-outline-success {
+    margin-left: 0; } }

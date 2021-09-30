@@ -9,8 +9,8 @@
 .contenedor-marketplace {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 40px;
-  margin: 20px;
+  grid-gap: 60px;
+  margin: 60px;
   .flex-market {
     display: flex;
     justify-content: space-between;
@@ -49,7 +49,7 @@
 
 // MEDIAQUERYS //
 
-/* TABLET */ 
+/* TABLET */
 
 @media only screen and (max-width: 768px) {
   .titulo-market {
