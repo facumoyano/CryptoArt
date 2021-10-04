@@ -489,7 +489,7 @@ footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 60px;
-  margin: 60px; }
+  margin: 50px; }
   .contenedor-marketplace .flex-market {
     display: flex;
     justify-content: space-between;
@@ -513,7 +513,7 @@ footer {
     border-radius: 2px; }
   .contenedor-marketplace .titulo-img {
     font-family: "Roboto", sans-serif;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 700; }
   .contenedor-marketplace .img-eth {
     width: 15px; }
@@ -614,7 +614,7 @@ footer {
       content: "";
       position: absolute;
       width: 0.6rem;
-      height: 90%;
+      height: 100%;
       background: linear-gradient(180deg, #fca311 0%, #f6e7bb 100%);
       top: 50%;
       left: 0;
@@ -624,7 +624,7 @@ footer {
       font-size: 1.6rem;
       padding: 2rem; }
   .container-faq .acordeon-item:target .respuesta {
-    max-height: 30rem; }
+    max-height: 100%; }
     .container-faq .acordeon-item:target .respuesta .acordeon-link .add {
       display: none; }
     .container-faq .acordeon-item:target .respuesta .acordeon-link .remove {
@@ -762,7 +762,7 @@ footer {
 .btn-outline-success {
   background-color: #fff;
   color: #14213d;
-  padding: 10px 40px;
+  padding: 8px 40px;
   margin-left: 10px;
   border-radius: 10px;
   font-family: "Roboto", sans-serif;

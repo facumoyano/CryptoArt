@@ -10,7 +10,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 60px;
-  margin: 60px;
+  margin: 50px;
   .flex-market {
     display: flex;
     justify-content: space-between;
@@ -39,7 +39,7 @@
   }
   .titulo-img {
     font-family: "Roboto", sans-serif;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 700;
   }
   .img-eth {
