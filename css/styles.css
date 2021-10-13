@@ -567,6 +567,8 @@ footer {
   justify-content: space-around;
   align-items: center;
   padding: 60px 20px; }
+  .input-container-contact a {
+    color: #fff; }
 
 @media only screen and (max-width: 768px) {
   .contact-container {
@@ -680,17 +682,22 @@ footer {
   margin: 20px;
   font-size: 1.6rem; }
 
-.input-container p {
+.input-container a {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 700;
+  font-family: "Roboto", cursive; }
+
+.input-container p a {
   color: #14213d;
   font-size: 1.8rem; }
 
-.input-container a {
-  color: #14213d;
-  font-size: 1.8rem;
-  font-weight: 700; }
+.input-container p a:hover {
+  color: #fda312;
+  font-size: 1.8rem; }
 
 .input-container a:hover {
-  color: #fda312; }
+  color: #fff; }
 
 @media only screen and (max-width: 768px) {
   .login-container {
@@ -769,6 +776,8 @@ footer {
   font-size: 2rem;
   font-weight: 700;
   border: none; }
+  .btn-outline-success a {
+    color: #14213d; }
 
 .btn-outline-success:hover {
   background-color: #fda312;
@@ -798,3 +807,24 @@ footer {
 @media only screen and (max-width: 578px) {
   .btn-outline-success {
     margin-left: 0; } }
+
+.containerNotFound {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10% 0; }
+  .containerNotFound img {
+    width: 50rem; }
+
+@media only screen and (max-width: 768px) {
+  .containerNotFound {
+    margin: 30% 0; } }
+
+@media only screen and (max-width: 576px) {
+  .containerNotFound {
+    margin-top: 50% 0; }
+    .containerNotFound h1 {
+      font-size: 4rem; }
+    .containerNotFound img {
+      width: 30rem; } }

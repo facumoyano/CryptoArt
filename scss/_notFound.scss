@@ -1,0 +1,26 @@
+.containerNotFound {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10% 0;
+  img {
+    width: 50rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .containerNotFound {
+    margin: 30% 0;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .containerNotFound {
+    margin-top: 50% 0;
+    h1 {
+      font-size: 4rem;
+    }
+    img {
+      width: 30rem;
+    }
+  }
+}

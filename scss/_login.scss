@@ -38,17 +38,22 @@
   margin: 20px;
   font-size: 1.6rem;
 }
-.input-container p {
-  color: #14213d;
-  font-size: 1.8rem;
-}
 .input-container a {
-  color: #14213d;
+  color: #fff;
   font-size: 1.8rem;
   font-weight: 700;
+  font-family: "Roboto", cursive;
+}
+.input-container p a {
+  color: #14213d;
+  font-size: 1.8rem;
+}
+.input-container p a:hover {
+  color: #fda312;
+  font-size: 1.8rem;
 }
 .input-container a:hover {
-  color: #fda312;
+  color: #fff;
 }
 
 @media only screen and (max-width: 768px) {
